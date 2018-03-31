@@ -1,0 +1,18 @@
+高凯
+=============
+- 前端
+
+技能
+=============
+- 前端开发
+- vue.js 入门级
+- react.js 入门级
+- node.js 入门级
+
+实践经历
+=============
+- https://github.com/jeoke
+- node/socket.io/jquery 小聊天室
+- webpack4/react/eslint 脚手架
+- vue 小实践
+- react 简历

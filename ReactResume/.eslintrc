@@ -1,0 +1,46 @@
+﻿{
+  "parser": "babel-eslint",
+  "plugins": [
+      "babel",
+      "react"
+    ],
+  "rules": {
+     "strict": 0,
+     "semi": 2, // 强制语句末尾添加符号，否则报错
+     "quotes": [
+       1,
+       "single"
+     ],
+     eqeqeq: 0,
+     "comma-spacing": [
+        0,
+        {
+            "before": false,
+            "after": true
+        }
+      ],
+     "no-unused-vars": [
+          1,
+        {
+            // 允许声明未使用变量
+            "vars": "local",
+            // 参数不检查
+            "args": "none"
+        }
+     ],
+    //必须使用 if(){} 中的{}
+     "curly": 2,
+     "no-useless-constructor": 0,
+     "react/no-did-mount-set-state": 0,
+     "react/prop-types": 0,
+     "no-func-assign":2,
+     "react/jsx-uses-react":1,
+     "react/jsx-uses-vars":2,
+     "react/prefer-es6-class":2,
+     "react/react-in-jsx-scope":2
+  },
+  "env": {
+      "browser": true,
+      "es6": true
+  }
+}
